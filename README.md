@@ -1,108 +1,101 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project 4 - Full Stack 
 
-Welcome nikhilkalhan92,
+![GitHub contributors](https://img.shields.io/github/contributors/nikhilkalhan92/Project-4---Full-Stack)
+![GitHub last commit](https://img.shields.io/github/last-commit/nikhilkalhan92/Project-4---Full-Stack)
+![GitHub language count](https://img.shields.io/github/languages/count/nikhilkalhan92/Project-4---Full-Stack)
+![GitHub top language](https://img.shields.io/github/languages/top/nikhilkalhan92/Project-4---Full-Stack)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Welcome to my fourth project. This project is a blog website, using 2 different programs called Bootstrap and Django. I have also used 3 different languages: HTML5/CSS3 and Python. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+This project will show the use of CRUD functionality (Create, Read, Update, Delete). The user will be able create, read, update and delete their user profile/comments on the blog.
 
-## Gitpod Reminders
+# 1 - UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I am a big fan of the website "Reddit", I have always used the website to browse different topics, and of course getting involved. 
 
-`python3 -m http.server`
+This project will showcase simplicity and ease to sign up to a blog, start a discussion, discuss with other users and get involved!
 
-A blue button should appear to click: _Make Public_,
+### Project Goals
+The main goal of this project is to allow the user to sign up, sign in/out, create/update a user profile and create/update/delete a blog in a simple and effective process.
 
-Another blue button should appear to click: _Open Browser_.
+### User Goals:
+First Time Visitor Goals
+-   As a first-time visitor, I want to book a sign up to the website 
+-   As a first-time visitor, I want to view the menu for all current blog discussions.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Returning Visitor Goals
+-   As a Returning Visitor, I want to log back into the terminal.
+-   As a Returning Visitor, I want to like and comment discussions
+-   As a Returning Visitor, I want to edit any previous coomments or start topics.
 
-A blue button should appear to click: _Make Public_,
+Frequent User Goals
+-   As a Frequent User, I want to check to see if there are more debates being added by various users and to get involved with the community.
 
-Another blue button should appear to click: _Open Browser_.
+### User Expectations:
+The system should have a simple user interface, with the navigation to each section clear and concise.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-   The blog posts are clear to read.
+-   The user interface is easy to navigate.
+-   The website is responsive on all devices.
+-   To have the ability to sign up via social media/online
 
-To log into the Heroku toolbelt CLI:
+### User Stories
+Throughout the project I used the GitHub projects board to log all user stories as my project management tool. This helped me keep focus on the specific tasks as I would move them to the "in progress lane" as I'm working on the story. I would then move them to the "done" lane once the story has been completed. As you see below - you can see the story planned out with screenshots showing my progression.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# 2 Structure
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
 
-------
+- Responsive on all device sizes
+- Easy navigation through labelled buttons
+- Footer at the bottom of the index page that links to the social media website.
+- All elements will be consistent including font size, font family, colour scheme.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# 3 Skeleton 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Wireframes pic
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+# 4 Features
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+# 5 Technologies used
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML)
+    -   The project uses HyperText Markup Language.
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
+    -   The project uses Cascading Style Sheets.
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    -   The project uses JavaScript.
+-   [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+    -   The project uses Python.
+-   [Boostrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    -   The project uses Bootstrap 5.
+-   [PostgreSQL](https://www.postgresql.org/)
+    -   The project uses PostgreSQL as a database.
+-   [Gitpod](https://www.gitpod.io/)
+    -   The project uses Gitpod.
+-   [Chrome](https://www.google.com/intl/en_uk/chrome/)
+    -   The project uses Chrome to debug and test the source code using HTML5.
+-   [Balsamiq](https://balsamiq.com/)
+    -   Balsamiq was used to create the wireframes during the design process.
+-   [GitHub](https://github.com/)
+    -   GitHub was used to store the project's code after being pushed from Git.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Google Developer Tools
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Responsive Tools
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+HTML VALIDATOR PICS
+CSS PICS
+JS
+PYTHON
 
-------
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
