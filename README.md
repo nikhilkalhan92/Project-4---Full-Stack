@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/nikhilkalhan92/Project-4---Full-Stack)
 ![GitHub top language](https://img.shields.io/github/languages/top/nikhilkalhan92/Project-4---Full-Stack)
 
-Welcome to my fourth project. This project is a blog website, using 2 different programs called Bootstrap and Django. I have also used 3 different languages: HTML5/CSS3 and Python. 
+Welcome to my fourth project. This project is a blog website, using 2 different programs called Bootstrap and Django. I have also used 3 different languages: HTML5/CSS3, Javascript and Python. 
 
 This project will show the use of CRUD functionality (Create, Read, Update, Delete). The user will be able create, read, update and delete their user profile/comments on the blog.
 
@@ -96,6 +96,116 @@ HTML VALIDATOR PICS
 CSS PICS
 JS
 PYTHON
+
+### Validator Tests
+
+HTML
+CSS3
+PYTHON
+JS
+
+
+
+## Manual Testing
+I have tested my site on Safari and google chrome on multiple devices.
+
+These include:
+-   iPhone X
+-   iPhone XS Max
+-   iPad Pro
+-   MacBook Pro
+
+Please find below my testing process for all pages via mobile and web:
+
+
+
+
+# 6. Development Cycle
+
+I used GitHub pages to deploy my final project. To do this I had to:
+1. Login or Sign Up to [GitHub] - https://github.com/nikhilkalhan92/Project-4---Full-Stack
+2. Create a new repository named "Project-4---Full-Stack"
+3. Once created, click on "Settings" on the navigation bar under the repository title.
+4. Choose which folder to deploy from, I used "/root".
+5. Click "Save", then wait for it to be deployed. 
+6. The URL will be displayed above the "source" section in GitHub Pages.
+
+**HOW TO FORK A REPOSITORY**
+
+If you need to make a copy of a repository:
+
+1. Login or Sign Up to GitHub.
+2. On GitHub, go to nikhilkalhan92/Project-4---Full-Stack.
+3. In the top right corner, click "Fork".
+
+For the final deployment to Heroku, I had to:
+1. Uncomment the PostgreSQL databse from my settings.py file.
+2. Set debug = False in my settings.py file.
+3. Commit and push all files to GitHub
+3. In Heroku, remove the DISABLE_COLLECTSTATIC config var.
+4. In the deploy tab, go to the manual deploy sections and click deploy branch.
+
+### Project Checklist
+Install Django and the supporting libraries
+1. Install Django and Gunicorn. Gunicorn is the server I am using to run Django on Heroku.
+2. Install support libraries including psycopg2, this is used to connect the PostgreSQL database
+3. Install Cloudinary libraries, this is a host provider service that stores images
+4. Create the requirements.txt file. This includes the project's dependencies allowing us to run the project in Heroku.
+
+Create a new, blank Django Project
+1. Create a new project
+2. Create the app
+3. Add restaurant_booking to the installed apps in settings.py
+4. Migrate all new changes to the database
+5. Run the server to test
+
+Setup project to use Cloudinary and PostgreSQL
+1. Create new Heroku app
+2. Sign into Heroku
+3. Select New
+4. Select create new app
+5. Enter a relevant app name
+6. Select appropriate region
+7. Select the create app button
+
+Attach PostgreSQL database
+1. In Heroku go to resources
+2. Search for Postgres in the add-ons box
+3. Select Heroku Postgres
+4. Submit order form
+
+Prepare the environment and settings.py file
+1. Create env.py file
+2. Add DATABASE_URL with the Postgres URL from Heroku
+3. Add SECRET_KEY with a randomly generated key
+4. Add SECRET_KEY and generated key to the config vars in Heroku
+5. Add if statement to settings.py to prevent the production server from erroring
+6. Replace insecure key with the environment variable for the SECRET_KEY
+7. Add Heroku database as the back end
+8. Migrate changes to new database
+
+Get static media files stored on Cloudinary
+1. Create a Cloudinary account
+2. From the dashboard, copy the API Environment variable
+3. In the settings.py file create a new environment variable for CLOUDINARY_URL
+4. Add the CLOUDINARY_URL variable to Heroku
+5. Add a temporary config var for DISABLE_COLLECTSTATIC
+6. In settings.py add Cloudinary as an installed app
+7. Add static and media file variables
+8. Add templates directory
+9. Change DIR's key to point to TEMPALTES_DIR
+10. Add Heroku hostname to allowed hosts
+11. Create directories for media, static and templates in the project workspace
+12. Create a Procfile
+
+
+
+# 7 Final Product
+
+
+# 8 Acknowledgments 
+
+
 
 
 
