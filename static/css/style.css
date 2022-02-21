@@ -140,3 +140,8 @@ body {
     background: transparent;
     border: none;
 }
+
+a {
+    color: whitesmoke;
+    text-decoration: underline;
+}

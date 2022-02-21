@@ -100,7 +100,14 @@ PYTHON
 ### Validator Tests
 
 HTML
-CSS3
+#### CSS3 - 
+I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
+
+I had no errors in my css
+
+![CSS errors](media/CSSerrors.png) 
+
+
 PYTHON
 JS
 
