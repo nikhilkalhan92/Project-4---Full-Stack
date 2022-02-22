@@ -140,8 +140,9 @@ body {
     background: transparent;
     border: none;
 }
+/* social media icons */
 
 a {
-    color: whitesmoke;
-    text-decoration: underline;
+    color: unset;
+    
 }
