@@ -42,6 +42,113 @@ The system should have a simple user interface, with the navigation to each sect
 ### User Stories
 Throughout the project I used the GitHub projects board to log all user stories as my project management tool. This helped me keep focus on the specific tasks as I would move them to the "in progress lane" as I'm working on the story. I would then move them to the "done" lane once the story has been completed. As you see below - you can see the story planned out with screenshots showing my progression.
 
+You will see below my user stories being updated in chronological order.
+
+#### 1
+
+Installing Django 
+
+![pic1](media/pic1.png) 
+
+#### 2
+
+![pic2](media/pic2.png)
+
+#### 3
+
+Linking my blog to Cloudinary after signing up,creating ana ccount and copying the key into settings.py 
+
+![pic3](media/pic3.png)
+
+#### 4
+
+Install Summernote which is a JavaScript library that helps you create WYSIWYG editors online.
+
+![pic4](media/pic4.png)
+
+#### 5
+
+Install Summernote which is a JavaScript library that helps you create WYSIWYG editors online.
+
+![pic5](media/pic5.png)
+
+#### 6
+
+![pic6](media/pic6.png)
+
+#### 7
+
+Installed gunicorn which is: This object is used to pass request data to your application, and to receive response data
+
+![pic7](media/pic7.png)
+
+#### 8
+
+Created the Superuser for my django - which gives me permission to create, read, update and delete data in the Django admin
+![pic8](media/pic8.png)
+
+#### 9
+
+![pic9](media/pic9.png)
+
+#### 10
+
+On Django admin - Sety up so I can manage drafts/delete posts and create new ones.
+
+![pic10](media/pic10.png)
+
+#### 11
+
+![pic11](media/pic11.png)
+
+#### 12
+
+Created my first view on the website 
+
+![pic12](media/pic12.png)
+
+#### 13
+
+![pic13](media/pic13.png)
+
+#### 14
+
+![pic14](media/pic14.png)
+
+#### 15
+
+![pic15](media/pic15.png)
+
+#### 16
+
+Give my website the option to allow users to sign up to my blog.
+
+![pic16](media/pic16.png)
+
+#### 17
+
+![pic17](media/pic17.png)
+
+#### 18
+
+Allows user to comment on set post.
+
+![pic18](media/pic18.png)
+
+#### 19
+
+![pic19](media/pic19.png)
+
+#### 20
+
+Allow user to like/unlike the post.
+
+![pic20](media/pic20.png)
+
+#### 21
+
+![pic21](media/pic21.png)
+
 # 2 Structure
 
 It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
