@@ -60,6 +60,11 @@ Linking my blog to Cloudinary after signing up,creating ana ccount and copying t
 
 ![pic3](media/pic3.png)
 
+Also setting up a new heroku app, and linking it to my SQL 
+
+![heroku](media/heroku.png)
+
+
 #### 4
 
 Install Summernote which is a JavaScript library that helps you create WYSIWYG editors online.
@@ -167,6 +172,33 @@ Wireframes pic
 
 
 # 4 Features
+
+
+## All Pages Features 
+
+- The navigation bar is placed at the top of all pages. The user will know if they are logged in or not. Examples below.
+
+- You will see the social media icons at the end of the footer per page.
+
+- If you are a registered user, you can comment/edit/delete on any post once clicking on it
+
+## Register Page
+
+- A simple signup form that requires the user to enter a unique email address and a password. The password must be entered again for confirmation, this must match the already entered password above.
+
+- Once signed up, you'll be logged in with a quick pop message confirming succesful registeration and you'll be able to use the platform
+
+- If the user enters a password that is not secure, the user will be prompted by a message.
+
+- If the user enters both passwords that do not match, the user is prompted by a message.
+
+- Once the user has successfully signed up, this will automatically log in and direct the user to the homepage 
+
+## Log Out Page
+
+When clicking logout from the navigation bar - the webpage will look like the below.
+
+
 
 
 
