@@ -7,13 +7,13 @@
 
 Welcome to my fourth project. This project is a blog website, using 2 different programs called Bootstrap and Django. I have also used 3 different languages: HTML5/CSS3, Javascript and Python. 
 
-This project will show the use of CRUD functionality (Create, Read, Update, Delete). As an admin I can update/delete and create new posts via django admin. 
+This project will show the use of CRUD functionality (Create, Read, Update, Delete). A user can post comments on all topics, As an admin I can update/delete and create new posts via the admin site. 
 
 [Here is a link to the final project](http://project-4-full-stack.herokuapp.com/)
 
 
-
 ![amiresponsive](media/responsiove.png)
+
 
 # 1 - UX
 
@@ -279,7 +279,7 @@ HTML Validator Results
 
 I used to check for any errors within my HTML pages. The only errors i had was because of the 'Jinja Template" method used. my mentor said to screenshot them and explain why no changes were made.
 
-[htmlvalidator] (https://validator.w3.org/) 
+https://validator.w3.org/
 
 ### Base.HTML
 
