@@ -356,11 +356,11 @@ Please find below my testing process for all pages via mobile and web:
 
 ### Sign Up Page
 
- Once you reigstered your details, you will be logged in and it will take you to the homepage.
+ Once you reigstered your details, you will be logged in and it will take you to the homepage and you can commeny
 
  ### Signed Out
 
- when you sign out, a message will appear confirming.
+ when you sign out, a message will appear confirming this.
 
  ### Footer
 
