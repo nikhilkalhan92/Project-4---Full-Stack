@@ -13,7 +13,7 @@ This project will show the use of CRUD functionality (Create, Read, Update, Dele
 
 I am a big fan of the website "Reddit", I have always used the website to browse different topics, and of course getting involved. 
 
-This project will showcase simplicity and ease to sign up to a blog, start a discussion, discuss with other users and get involved!
+This project will showcase simplicity and ease to sign up to a blog, start a discussion and discuss topics with others.
 
 ### Project Goals
 The main goal of this project is to allow the user to sign up, sign in/out, create/update a user profile and create/update/delete a blog in a simple and effective process.
@@ -26,7 +26,7 @@ First Time Visitor Goals
 Returning Visitor Goals
 -   As a Returning Visitor, I want to log back into the terminal.
 -   As a Returning Visitor, I want to like and comment discussions
--   As a Returning Visitor, I want to edit any previous coomments or start topics.
+-   As a Returning Visitor, I want to edit any previous comments or start topics.
 
 Frequent User Goals
 -   As a Frequent User, I want to check to see if there are more debates being added by various users and to get involved with the community.
@@ -171,6 +171,28 @@ It is really important to include responsive design in this project as many user
 Wireframes pic
 
 
+### Surface
+
+Colours used for my blog -
+
+![C1](media/23bbbb.png)
+
+![C2](media/33fff6.png)
+
+![C3](media/979a9a.png)
+
+![C4](media/17202a.png)
+
+![C5](media/445261.png)
+
+![C6](media/e84610.png)
+
+
+
+
+
+
+
 # 4 Features
 
 
@@ -276,6 +298,44 @@ These include:
 -   MacBook Pro
 
 Please find below my testing process for all pages via mobile and web:
+
+### All Pages:
+
+ ### Home Page
+ When clicking the "home" button in the navigation bar, the browser redirects me to the home page. 
+
+ ### Blog Page
+ From the home page, if you click one of the blogs it will redirect you to the one you clicked and if you scroll down you can comment on said post.
+
+ if you click "Niks blog" it will redirect you to the home page.
+
+ ### Media	
+ 
+ All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices.
+
+### Responsiveness	
+Checked every element on the page for consistent scalability in mobile, tablet and desktop view.
+
+### Sign Up Page
+
+ Once you reigstered your details, you will be logged in and it will take you to the homepage.
+
+ Accessibility	Checked the accessibility of the page using lighthouse
+
+ ### Footer
+
+Facebook	When clicking the Facebook icon, a new tab opens and redirects to the Facebook website.	
+
+Twitter	    When clicking the Twitter icon, a new tab opens and redirects to the Twitter website.	
+
+Instagram	When clicking the Instagram icon, a new tab opens and redirects to the Instagram website.
+
+Youtube     when clicking the youtube icon, a new tab opens and redirects you to the Youtube website.
+
+
+
+ 
+
 
 
 

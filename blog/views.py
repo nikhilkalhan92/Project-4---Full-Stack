@@ -5,6 +5,9 @@ from .models import Post
 from .forms import CommentForm
 
 
+
+
+
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
@@ -61,7 +64,9 @@ class PostDetail(View):
                 "comments": comments,
                 "commented": True,
                 "comment_form": comment_form,
-                "liked": liked
+                "liked": liked,
+                "edit": edit,
+                "delete": delete,
             },
         )
 
