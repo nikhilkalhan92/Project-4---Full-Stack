@@ -168,8 +168,21 @@ It is really important to include responsive design in this project as many user
 
 # 3 Skeleton 
 
-Wireframes pic
+I used Balsamiq to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
 
+There are 3 versions of each wireframe as one shows the design on a web browser and the other show on a Ipad and Iphone
+
+#### Website Wireframe
+
+![website1](media/website1.png)
+
+![website2](media/website2.png)
+
+![iphone](media/iphone.png)
+
+![ipad1](media/ipad1.png)
+
+![ipad2](media/ipad2.png)
 
 ### Surface
 
@@ -205,8 +218,6 @@ Colours used for my blog -
 - You will see the social media icons at the end of the footer per page.
 
 ![socialmedia](media/socialmedia.png)
-
-- If you are a registered user, you can comment/edit/delete on any post once clicking on it
 
 ## Register Page
 
