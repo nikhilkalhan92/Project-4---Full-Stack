@@ -11,7 +11,7 @@ This project will show the use of CRUD functionality (Create, Read, Update, Dele
 
 [Here is a link to the final project](http://project-4-full-stack.herokuapp.com/)
 
-and the below website on amiresponsive
+
 
 ![amiresponsive](media/responsiove.png)
 
@@ -336,15 +336,39 @@ I tested my website using Google Chrome Developer Tools Lighthouse feature, and 
 
 Please find below my testing process for all pages via mobile and web:
 
- ### Home Page
- When clicking the "home" button in the navigation bar, the browser redirects me to the home page. 
+### All Pages
 
- You cannot comment unless signed up - this works when you sign up/log in.
+Home page - When clicking the "home" button in the navigation bar, the browser redirects me to the home page. 
+
+Blog Page - When clicking the "menu" button in the navigation bar, the browser redirects me to the menu page.
+
+Text - Checked that all fonts and colours used are consistent.
+
+Login / Logout page - When clicking the "login" or "logout button in the navigation bar, the browser redirects me to the login or logout page
+
+Register page - When clicking the "register" button in the navigation bar, the browser redirects me to the register page.
+
+ ### Home Page
+ 
+ Media - All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices.
+
+ Responsiveness - Check every element on the page for consistent scalability in mobile, tablet and desktop view.
+
+![response](media/lighthousehomepage.png)
+
+Accessibility - Checked the accessibility of the page using lighthouse
 
  ### Blog Page
- From the home page, if you click one of the blogs it will redirect you to the one you clicked and if you scroll down you can comment on said post.
 
- if you click "Niks blog" it will redirect you to the home page.
+ Media - All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices.
+
+ Responsiveness - Check every element on the page for consistent scalability in mobile, tablet and desktop view.
+
+ Home - Clicked the home button and you will be back on the homepage
+
+Accessibility - Checked the accessibility of the page using lighthouse
+
+ ![blog](media/lighthouseblog.png)
 
  ### Lighthouse Blog Page results
 
@@ -356,11 +380,19 @@ Please find below my testing process for all pages via mobile and web:
 
 ### Sign Up Page
 
- Once you reigstered your details, you will be logged in and it will take you to the homepage and you can commeny
+ Responsiveness - Check every element on the page for consistent scalability in mobile, tablet and desktop view.
 
- ### Signed Out
+ Once you reigstered your details, you will be logged in and it will take you to the homepage and you can comment
 
- when you sign out, a message will appear confirming this.
+ Accessibility - Checked the accessibility of the page using lighthouse
+ ![sign](media/loginlighthouse.png)
+
+
+### Signed Out
+
+Responsiveness - Check every element on the page for consistent scalability in mobile, tablet and desktop view.
+
+when you sign out, a message will appear confirming this.
 
  ### Footer
 
@@ -390,7 +422,7 @@ I used GitHub pages to deploy my final project. To do this I had to:
 2. On GitHub, go to nikhilkalhan92/Project-4---Full-Stack.
 3. In the top right corner, click "Fork".
 
-For the final deployment to Heroku, I had to:
+### For the final deployment to Heroku, I had to:
 1. Uncomment the PostgreSQL databse from my settings.py file.
 2. Set debug = False in my settings.py file.
 3. Commit and push all files to GitHub
@@ -451,7 +483,9 @@ Install Django and the supporting libraries
 
 ### Django Admin
 
-If you need to sign in
+If you need to sign in into the admin django
+
+URL is = https://project-4-full-stack.herokuapp.com/admin
 
 username is nikhilkalhan92 and password is nikhilkalhan1
 
@@ -500,9 +534,9 @@ Django admin
 
 # 8 Acknowledgments 
 
-My Mentor Marcel thank you for the advice/meetings and endless questions
+My Mentor Marcel thank you for the advice/meetings and answering my endless questions.
 
-Shout out to my friend Jayden 
+Shout out to my friend Jayden Maddison.
 
 
 
