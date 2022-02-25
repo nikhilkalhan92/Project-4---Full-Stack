@@ -7,7 +7,13 @@
 
 Welcome to my fourth project. This project is a blog website, using 2 different programs called Bootstrap and Django. I have also used 3 different languages: HTML5/CSS3, Javascript and Python. 
 
-This project will show the use of CRUD functionality (Create, Read, Update, Delete). The user will be able create, read, update and delete their user profile/comments on the blog.
+This project will show the use of CRUD functionality (Create, Read, Update, Delete). As an admin I can update/delete and create new posts via django admin. 
+
+[Here is a link to the final project](http://project-4-full-stack.herokuapp.com/)
+
+and the below website on amiresponsive
+
+![amiresponsive](media/responsiove.png)
 
 # 1 - UX
 
@@ -26,7 +32,6 @@ First Time Visitor Goals
 Returning Visitor Goals
 -   As a Returning Visitor, I want to log back into the terminal.
 -   As a Returning Visitor, I want to like and comment discussions
--   As a Returning Visitor, I want to edit any previous comments or start topics.
 
 Frequent User Goals
 -   As a Frequent User, I want to check to see if there are more debates being added by various users and to get involved with the community.
@@ -164,8 +169,6 @@ It is really important to include responsive design in this project as many user
 - All elements will be consistent including font size, font family, colour scheme.
 
 
-
-
 # 3 Skeleton 
 
 I used Balsamiq to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
@@ -199,11 +202,6 @@ Colours used for my blog -
 ![C5](media/445261.png)
 
 ![C6](media/e84610.png)
-
-
-
-
-
 
 
 # 4 Features
@@ -274,18 +272,29 @@ Signed Out Successful
 -   [GitHub](https://github.com/)
     -   GitHub was used to store the project's code after being pushed from Git.
 
-### Google Developer Tools
 
 ### Responsive Tools
 
-HTML VALIDATOR PICS
-CSS PICS
-JS
-PYTHON
+HTML Validator Results
 
-### Validator Tests
+I used to check for any errors within my HTML pages. The only errors i had was because of the 'Jinja Template" method used. my mentor said to screenshot them and explain why no changes were made.
 
-HTML
+[htmlvalidator] (https://validator.w3.org/) 
+
+### Base.HTML
+
+![base](media/base.png)
+
+### Index.html
+
+![index1](media/index.png)
+![index2](media/Index.html2.png)
+
+
+### Post_detail.html
+
+![postdetail](media/postdetailhtml.png)
+
 #### CSS3 - 
 I used [W3C CSS Validation](https://jigsaw.w3.org/css-validator/) to check for any errors within my CSS stylesheet.
 
@@ -294,8 +303,20 @@ I had no errors in my css
 ![CSS errors](media/CSSerrors.png) 
 
 
-PYTHON
-JS
+#### Python
+I used [pep8online](http://pep8online.com/) to check errors on my Views/Forms/Models
+
+Models.py - I had 3 errors which i solved quite quickly
+
+![models](media/modelspyerror.png)
+![models2](media/modelspy.png)
+
+Formspy - no errors
+![forms](media/forms.png)
+
+Views.py - I had 3 errors which I solved quite quickly
+![view](media/views.png)
+![views2](media/viewspynice.png)
 
 
 
@@ -308,48 +329,48 @@ These include:
 -   iPad Pro
 -   MacBook Pro
 
-Please find below my testing process for all pages via mobile and web:
+### Responsiveness	
 
-### All Pages:
+I tested my website using Google Chrome Developer Tools Lighthouse feature, and received the results below:
+![test](media/testing1.png)
+
+Please find below my testing process for all pages via mobile and web:
 
  ### Home Page
  When clicking the "home" button in the navigation bar, the browser redirects me to the home page. 
+
+ You cannot comment unless signed up - this works when you sign up/log in.
 
  ### Blog Page
  From the home page, if you click one of the blogs it will redirect you to the one you clicked and if you scroll down you can comment on said post.
 
  if you click "Niks blog" it will redirect you to the home page.
 
+ ### Lighthouse Blog Page results
+
+ ![lightout](media/lightouthouse.png)
+
  ### Media	
  
  All media assets are displayed properly, have no pixelation or stretched images and is responsive on all devices.
-
-### Responsiveness	
-Checked every element on the page for consistent scalability in mobile, tablet and desktop view.
 
 ### Sign Up Page
 
  Once you reigstered your details, you will be logged in and it will take you to the homepage.
 
- Accessibility	Checked the accessibility of the page using lighthouse
+ ### Signed Out
+
+ when you sign out, a message will appear confirming.
 
  ### Footer
 
-Facebook	When clicking the Facebook icon, a new tab opens and redirects to the Facebook website.	
+Facebook - When clicking the Facebook icon, a new tab opens and redirects to the Facebook website.	
 
-Twitter	    When clicking the Twitter icon, a new tab opens and redirects to the Twitter website.	
+Twitter	  - When clicking the Twitter icon, a new tab opens and redirects to the Twitter website.	
 
-Instagram	When clicking the Instagram icon, a new tab opens and redirects to the Instagram website.
+Instagram - When clicking the Instagram icon, a new tab opens and redirects to the Instagram website.
 
-Youtube     when clicking the youtube icon, a new tab opens and redirects you to the Youtube website.
-
-
-
- 
-
-
-
-
+Youtube   - When clicking the youtube icon, a new tab opens and redirects you to the Youtube website.
 
 # 6. Development Cycle
 
@@ -398,13 +419,13 @@ Install Django and the supporting libraries
 6. Select appropriate region
 7. Select the create app button
 
-Attach PostgreSQL database
+### Attach PostgreSQL database
 1. In Heroku go to resources
 2. Search for Postgres in the add-ons box
 3. Select Heroku Postgres
 4. Submit order form
 
-Prepare the environment and settings.py file
+### Prepare the environment and settings.py file
 1. Create env.py file
 2. Add DATABASE_URL with the Postgres URL from Heroku
 3. Add SECRET_KEY with a randomly generated key
@@ -414,7 +435,7 @@ Prepare the environment and settings.py file
 7. Add Heroku database as the back end
 8. Migrate changes to new database
 
-Get static media files stored on Cloudinary
+### Get static media files stored on Cloudinary
 1. Create a Cloudinary account
 2. From the dashboard, copy the API Environment variable
 3. In the settings.py file create a new environment variable for CLOUDINARY_URL
@@ -428,12 +449,58 @@ Get static media files stored on Cloudinary
 11. Create directories for media, static and templates in the project workspace
 12. Create a Procfile
 
+### Django Admin
 
+If you need to sign in
+
+username is nikhilkalhan92 and password is nikhilkalhan1
 
 # 7 Final Product
 
 
+Homepage
+![homepage](media/homepage.png)
+
+Signout
+![signout](media/signout.png)
+
+Blog 1
+![blog](media/blog1.png)
+
+Blog 2
+![blog](media/blog2.png)
+
+Blog 3
+![blog3](media/blog3.png)
+
+Blog 4
+![blog4](media/blog4.png)
+
+Blog 5
+![blog5](media/blog5.png)
+
+Blog 6
+![blog6](media/blog6.png)
+
+Register Page
+![register](media/register.png)
+
+SignIn
+![signin](media/signin.png)
+
+
+
+Django admin
+![djang1](media/djangoadmin.png)
+![django2](media/djangoadmin2.png)
+![django3](media/djangoadmin3.png)
+
+
 # 8 Acknowledgments 
+
+My Mentor Marcel thank you for the advice/meetings and endless questions
+
+Shout out to my friend Jayden 
 
 
 
