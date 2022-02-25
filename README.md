@@ -514,7 +514,7 @@ Blog 5
 ![blog5](media/blog5.png)
 
 Blog 6
-![blog6](media/blog6.png)
+![blog6](media/blog7.png)
 
 Register Page
 ![register](media/register.png)
