@@ -488,6 +488,8 @@ Register Page
 SignIn
 ![signin](media/signin.png)
 
+Browsing the website without being a member
+![member](media/notsignedinbrowing.png)
 
 
 Django admin
