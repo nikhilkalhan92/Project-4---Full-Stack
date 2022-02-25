@@ -20,8 +20,8 @@ The main goal of this project is to allow the user to sign up, sign in/out, crea
 
 ### User Goals:
 First Time Visitor Goals
--   As a first-time visitor, I want to book a sign up to the website 
--   As a first-time visitor, I want to view the menu for all current blog discussions.
+-   As a first-time visitor, I want to sign up to the website 
+-   As a first-time visitor, I want to view all current blog discussions.
 
 Returning Visitor Goals
 -   As a Returning Visitor, I want to log back into the terminal.
@@ -178,7 +178,11 @@ Wireframes pic
 
 - The navigation bar is placed at the top of all pages. The user will know if they are logged in or not. Examples below.
 
+![loggedout](media/loggedout.png)
+
 - You will see the social media icons at the end of the footer per page.
+
+![socialmedia](media/socialmedia.png)
 
 - If you are a registered user, you can comment/edit/delete on any post once clicking on it
 
@@ -186,22 +190,32 @@ Wireframes pic
 
 - A simple signup form that requires the user to enter a unique email address and a password. The password must be entered again for confirmation, this must match the already entered password above.
 
+![signuppage](media/signuppage.png)
+
 - Once signed up, you'll be logged in with a quick pop message confirming succesful registeration and you'll be able to use the platform
+
+![usersuccessfulogin](media/usersucessful.png)
 
 - If the user enters a password that is not secure, the user will be prompted by a message.
 
+![userpagenotsuccessful](media/userpagenotwork.png)
+
 - If the user enters both passwords that do not match, the user is prompted by a message.
+
+![incorrectpw](media/incorrectpw.png)
+![commonpassword](media/commonpasswordnotwork.png)
 
 - Once the user has successfully signed up, this will automatically log in and direct the user to the homepage 
 
+![signin](media/signin.png)
+
 ## Log Out Page
 
-When clicking logout from the navigation bar - the webpage will look like the below.
+When clicking logout from the navigation bar - the webpage will give you the option to log out
+![logout?](media/doyouwanttosignout.png)
 
-
-
-
-
+Signed Out Successful
+![signoutsuccesful](media/signedoutsuccesful.png)
 
 
 # 5 Technologies used
@@ -278,7 +292,7 @@ I used GitHub pages to deploy my final project. To do this I had to:
 
 **HOW TO FORK A REPOSITORY**
 
-If you need to make a copy of a repository:
+### If you need to make a copy of a repository:
 
 1. Login or Sign Up to GitHub.
 2. On GitHub, go to nikhilkalhan92/Project-4---Full-Stack.
@@ -298,14 +312,13 @@ Install Django and the supporting libraries
 3. Install Cloudinary libraries, this is a host provider service that stores images
 4. Create the requirements.txt file. This includes the project's dependencies allowing us to run the project in Heroku.
 
-Create a new, blank Django Project
+### Create a new, blank Django Project
 1. Create a new project
 2. Create the app
-3. Add restaurant_booking to the installed apps in settings.py
-4. Migrate all new changes to the database
-5. Run the server to test
+3. Migrate all new changes to the database
+4. Run the server to test
 
-Setup project to use Cloudinary and PostgreSQL
+### Setup project to use Cloudinary and PostgreSQL
 1. Create new Heroku app
 2. Sign into Heroku
 3. Select New
