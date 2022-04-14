@@ -62,7 +62,7 @@ class PostDetail(View):
                 "comment_form": comment_form,
                 "liked": liked,
 #                 "edit": edit,
-                "delete": delete,
+#                 "delete": delete,
             },
         )
 
