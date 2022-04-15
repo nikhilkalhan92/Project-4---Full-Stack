@@ -177,11 +177,11 @@ There are 3 versions of each wireframe as one shows the design on a web browser 
 
 #### Website Wireframe
 
-![website1](media/website1.png)
+![website1](media/computer1.png)
 
-![website2](media/website2.png)
+![website2](media/computer2.png)
 
-![iphone](media/iphone.png)
+![iphone](media/iphon.png)
 
 ![ipad1](media/ipad1.png)
 
