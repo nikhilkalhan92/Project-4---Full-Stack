@@ -534,17 +534,14 @@ Blog 5
 Blog 6
 ![blog6](media/blog7.png)
 
-User upating the comment with additonal words
+User upating the comment 
 ![updatingcomment](media/updatingcomment.png)
 
-The comment has now been updated
+The comment updated
 ![commentmade](media/commentmade.png)
 
-Now the user wants to delete the comment and it offers you the option to make sure you want to delete it.
+user wants to delete the comment
 ![deletecomment](media/deletecomment.png)
-
-if you go back to the blog, now you can see its been deleted.
-![commentdeleted](media/commentdeleted.png)
 
 Register Page
 ![register](media/register.png)
