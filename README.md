@@ -7,7 +7,7 @@
 
 Welcome to my fourth project. This project is a blog website, using 2 different programs called Bootstrap and Django. I have also used 3 different languages: HTML5/CSS3, Javascript and Python. 
 
-This project will show the use of CRUD functionality (Create, Read, Update, Delete). A user can post comments on all topics, As an admin I can update/delete and create new posts via the admin site. 
+This project will show the use of CRUD functionality (Create, Read, Update, Delete). A user can post comments on all topics, the user can update and delete comments if needed. 
 
 [Here is a link to the final project](http://project-4-full-stack.herokuapp.com/)
 
@@ -232,6 +232,24 @@ Colours used for my blog -
 ![userpagenotsuccessful](media/userpagenotwork.png)
 
 - If the user enters both passwords that do not match, the user is prompted by a message.
+
+- The below user experiences are to do with the CRUD functionality concentrating on update/deleting comment.
+
+User making a comment
+![makingcomment](media/makingcomment.png) 
+
+User upating the comment with additonal words
+![updatingcomment](media/updatingcomment.png)
+
+The comment has now been updated
+![commentmade](media/commentmade.png)
+
+Now the user wants to delete the comment and it offers you the option to make sure you want to delete it.
+![deletecomment](media/deletecomment.png)
+
+if you go back to the blog, now you can see its been deleted.
+![commentdeleted](media/commentdeleted.png)
+
 
 ![incorrectpw](media/incorrectpw.png)
 ![commonpassword](media/commonpasswordnotwork.png)
