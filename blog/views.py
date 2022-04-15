@@ -1,8 +1,11 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
+from django.shortcuts import render,redirect
 from django.http import HttpResponseRedirect
-from .models import Post
+from .models import Post, Comment
 from .forms import CommentForm
+from django.contrib.auth.decorators import login_required       #
+
 
 class PostList(generic.ListView):
     model = Post
@@ -16,7 +19,7 @@ class PostDetail(View):
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
-        comments = post.comments.filter(approved=True).order_by("-created_on")
+        comments = post.comments.order_by("-created_on")
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
@@ -77,3 +80,32 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+
+@login_required(login_url='login')
+def update_comment(request,pk):
+    comment=Comment.objects.get(id=pk)
+    form=CommentForm(instance=comment)  #whi form huga bs usko edit krsktay hungay 
+    context={'form':form}
+
+    if request.method=='POST':
+        form=CommentForm(request.POST,instance=comment)
+        if form.is_valid():
+            form.save()
+        return redirect('/')
+
+    return render(request,'update_comment.html',context)
+
+@login_required(login_url='login')
+def delete(request,pk):
+    item=Comment.objects.get(id=pk)
+    # todoItem=str(item).split(',')[1].split(':')[1][2:-2]
+    if request.method == 'POST':
+        item.delete()
+        return redirect('/')
+
+    context={
+        # 'item':todoItem
+    }
+    return render(request,'delete.html',context)
