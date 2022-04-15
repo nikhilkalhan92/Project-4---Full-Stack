@@ -1,0 +1,7 @@
+<p>Are you sure you want to delete Comment: "{{item}}" ?? </p>
+
+<form action="" method="POST">
+    {% csrf_token %}
+    <input  class="btn btn-danger" type="submit" name="Confirm" value="Delete">
+
+</form>

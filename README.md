@@ -61,7 +61,7 @@ Installing Django
 
 #### 3
 
-Linking my blog to Cloudinary after signing up,creating ana ccount and copying the key into settings.py 
+Linking my blog to Cloudinary after signing up,creating an account and copying the key into settings.py 
 
 ![pic3](media/pic3.png)
 
@@ -366,7 +366,7 @@ Accessibility - Checked the accessibility of the page using lighthouse
 
  Home - Clicked the home button and you will be back on the homepage
 
-Accessibility - Checked the accessibility of the page using lighthouse
+ Accessibility - Checked the accessibility of the page using lighthouse
 
  ![blog](media/lighthouseblog.png)
 
