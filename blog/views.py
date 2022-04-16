@@ -98,14 +98,14 @@ def update_comment(request , pk):
 
 
 @login_required(login_url='login')
-def delete(request , pk):
+def delete(request,pk):
     item=Comment.objects.get(id=pk)
     # todoItem=str(item).split(',')[1].split(':')[1][2:-2]
     if request.method == 'POST':
         item.delete()
         return redirect('/')
 
-    context = {
-# 'item':todoItem
-}
-return render(request ,'delete.html', context)
+    context={
+        # 'item':todoItem
+    }
+    return render(request,'delete.html',context)
