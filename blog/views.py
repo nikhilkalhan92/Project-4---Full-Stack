@@ -87,13 +87,11 @@ def update_comment(request , pk):
     comment = Comment.objects.get (id=pk)
     form = CommentForm(instance=comment)
     context = {'form':form}
-
     if request.method=='POST':
         form = CommentForm(request.POST, instance=comment)
         if form.is_valid():
             form.save()
         return redirect('/')
-
     return render(request,'update_comment.html', context)
 
 
@@ -104,7 +102,6 @@ def delete(request,pk):
     if request.method == 'POST':
         item.delete()
         return redirect('/')
-
     context={
         # 'item':todoItem
     }
