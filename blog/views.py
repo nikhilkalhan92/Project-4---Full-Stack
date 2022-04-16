@@ -81,21 +81,19 @@ class PostLike(View):
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
-
 @login_required(login_url='login')
-def update_comment(request , pk):
-    comment = Comment.objects.get (id=pk)
-    form = CommentForm(instance=comment)
-    context = {'form':form}
+def update_comment(request,pk):
+    comment=Comment.objects.get(id=pk)
+    form=CommentForm(instance=comment)  #whi form huga bs usko edit krsktay hungay 
+    context={'form':form}
 
     if request.method=='POST':
-        form = CommentForm(request.POST, instance=comment)
+        form=CommentForm(request.POST,instance=comment)
         if form.is_valid():
             form.save()
         return redirect('/')
 
-    return render(request,'update_comment.html', context)
-
+    return render(request,'update_comment.html',context)
 
 @login_required(login_url='login')
 def delete(request,pk):
