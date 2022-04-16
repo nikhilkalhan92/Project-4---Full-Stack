@@ -32,12 +32,13 @@ First Time Visitor Goals
 Returning Visitor Goals
 -   As a Returning Visitor, I want to log back into the terminal.
 -   As a Returning Visitor, I want to like and comment discussions
+-   AS A Returning Visitor, I want to update and delete comments.
 
 Frequent User Goals
 -   As a Frequent User, I want to check to see if there are more debates being added by various users and to get involved with the community.
 
 ### User Expectations:
-The system should have a simple user interface, with the navigation to each section clear and concise.
+The system should have a simple user interface, with the navigation to each section clear and concise
 
 -   The blog posts are clear to read.
 -   The user interface is easy to navigate.
