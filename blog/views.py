@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
-from django.shortcuts import render,redirect
+from django.shortcuts import render, redirect
 from django.http import HttpResponseRedirect
 from .models import Post, Comment
 from .forms import CommentForm
@@ -64,8 +64,8 @@ class PostDetail(View):
                 "commented": True,
                 "comment_form": comment_form,
                 "liked": liked,
-#                 "edit": edit,
-#                 "delete": delete,
+#"edit": edit,
+#"delete": delete,
             },
         )
 
@@ -82,30 +82,30 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-
 @login_required(login_url='login')
-def update_comment(request,pk):
-    comment=Comment.objects.get(id=pk)
-    form=CommentForm(instance=comment)  #whi form huga bs usko edit krsktay hungay 
-    context={'form':form}
+def update_comment(request , pk):
+    comment = Comment.objects.get (id=pk)
+    form = CommentForm(instance=comment)
+    context = {'form':form}
 
     if request.method=='POST':
-        form=CommentForm(request.POST,instance=comment)
+        form = CommentForm(request.POST, instance=comment)
         if form.is_valid():
             form.save()
         return redirect('/')
 
-    return render(request,'update_comment.html',context)
+    return render(request,'update_comment.html', context)
+
 
 @login_required(login_url='login')
-def delete(request,pk):
+def delete(request , pk):
     item=Comment.objects.get(id=pk)
     # todoItem=str(item).split(',')[1].split(':')[1][2:-2]
     if request.method == 'POST':
         item.delete()
         return redirect('/')
 
-    context={
-        # 'item':todoItem
-    }
-    return render(request,'delete.html',context)
+    context = {
+# 'item':todoItem
+}
+return render(request ,'delete.html', context)
