@@ -9,7 +9,7 @@ Welcome to my fourth project. This project is a blog website, using 2 different 
 
 This project will show the use of CRUD functionality (Create, Read, Update, Delete). A user can post comments on all topics, the user can update and delete comments if needed. 
 
-[Here is a link to the final project](http://project-4-full-stack.herokuapp.com/)
+[Here is a link to the final project](https://project-4-full-stack.herokuapp.com/)
 
 
 ![amiresponsive](media/responsiove.png)
